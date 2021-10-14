@@ -8,5 +8,5 @@
 
 You can grab your own Clarifai API Key [here](https://www.clarifai.com/)
 
-** Make sure you use posgreSQL instead of mySQL for this codebase.
+** Make sure you use postgreSQL instead of mySQL for this codebase.
 
