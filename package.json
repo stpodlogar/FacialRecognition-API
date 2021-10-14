@@ -4,22 +4,23 @@
   "description": "REST API for facial-recognition",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stpodlogar/facial-recognition-api.git"
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/stpodlogar/facial-recognition-api/issues"
-  },
-  "homepage": "https://github.com/stpodlogar/facial-recognition-api#readme",
   "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.19.0",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
-    "nodemon": "^2.0.13"
+    "express": "^4.17.1",
+    "knex": "^0.95.11",
+    "pg": "^8.7.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
