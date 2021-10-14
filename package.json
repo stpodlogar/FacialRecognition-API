@@ -1,0 +1,25 @@
+{
+  "name": "facial-recognition-api",
+  "version": "1.0.0",
+  "description": "REST API for facial-recognition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stpodlogar/facial-recognition-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stpodlogar/facial-recognition-api/issues"
+  },
+  "homepage": "https://github.com/stpodlogar/facial-recognition-api#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {}
+}
