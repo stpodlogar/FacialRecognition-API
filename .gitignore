@@ -1,5 +1,5 @@
 # env variables
-API_KEY=
+.env
 
 # node_modules
 /node_modules
