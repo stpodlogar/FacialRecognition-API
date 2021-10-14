@@ -1,9 +1,10 @@
 const Clarifai = require('clarifai');
-require('dotenv').config();
+const { apiKey } = require('../config');
+require('../config')
 
 //You must add your own API key here from Clarifai. 
 const app = new Clarifai.App({
- apiKey: process.env.API_KEY 
+ apiKey: apiKey
 });
 
 const handleApiCall = (req, res) => {
